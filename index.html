@@ -5,8 +5,7 @@
     <title>beebox models</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link type="text/css" href="../css/modelpagecss.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../third_party/mdl/material.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/modelpagecss.css" />
     
       <!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
   <script src="../lib/webcomponents-loader.js"></script>
@@ -14,10 +13,10 @@
   </head>
   <body>
 
-  <div id="demo-container" class="demo">
+  <div  id="demo-container" class="demo">
  <!-- Use it like any other HTML element --->
-    <model-viewer ar src="https://raw.githubusercontent.com/ksrajgame/VRARTestingModel/master/models/dldngfdgjkd/pumpkin.glb" 
-                  ios-src="https://raw.githubusercontent.com/ksrajgame/VRARTestingModel/master/models/dldngfdgjkd/pumpkin.usdz"
+    <model-viewer ar src="./models/dldngfdgjkd/pumpkin.glb" 
+                  ios-src="./models/dldngfdgjkd/pumpkin.usdz"
                   ar-modes="webxr scene-viewer quick-look fallback"
                   auto-rotate camera-controls
                   autoplay
@@ -31,10 +30,10 @@
 </div>
         
 <script type="module"
-    src="../lib/dependencies.js">
+    src="./lib/dependencies.js">
 </script>
 <script nomodule
-    src="../lib/dependencies-legacy.js">
+    src="./lib/dependencies-legacy.js">
 </script>
     <script type="module"
     src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
