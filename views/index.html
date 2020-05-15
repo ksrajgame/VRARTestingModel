@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>beebox models</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" href="../css/modelpagecss.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../third_party/mdl/material.min.css" />
+    
+      <!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+  <script src="../lib/webcomponents-loader.js"></script>
+  <script src="../lib/focus-visible.js"></script>
+  </head>
+  <body>
+
+  <div id="demo-container" class="demo">
+ <!-- Use it like any other HTML element --->
+    <model-viewer ar src="https://raw.githubusercontent.com/ksrajgame/VRARTestingModel/master/models/dldngfdgjkd/pumpkin.glb" 
+                  ios-src="https://raw.githubusercontent.com/ksrajgame/VRARTestingModel/master/models/dldngfdgjkd/pumpkin.usdz"
+                  ar-modes="webxr scene-viewer quick-look fallback"
+                  auto-rotate camera-controls
+                  autoplay
+                  shadow-intensity="1"
+                  alt="3D Car">
+                  <button  slot="ar-button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="position: absolute; bottom: 16px; right: 16px;">
+                    👋 AR
+                </button>
+    </model-viewer>
+
+</div>
+        
+<script type="module"
+    src="../lib/dependencies.js">
+</script>
+<script nomodule
+    src="../lib/dependencies-legacy.js">
+</script>
+    <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+  </body>
+</html>
