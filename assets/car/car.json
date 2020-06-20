@@ -1,0 +1,187 @@
+{
+    "modelName": "Car",
+    "modelPath": "models\/car\/scene.gltf",
+    "cameraPosition": {
+        "x": 24.789550331404353,
+        "y": 21.7288301515929,
+        "z": 34.70871845277723
+    },
+    "cameraRotation": {
+        "x": -0.5593423610823579,
+        "y": 0.5443610275279906,
+        "z": 0.31351277409645895
+    },
+    "zoomIn": 3,
+    "zoomOut": 2000,
+    "objectScale": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+    },
+    "objectRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "objectPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "isAnimationAvailable": true,
+    "animationPosition": [
+        {
+            "id": 1,
+            "x": 24.789550331404353,
+            "y": 21.7288301515929,
+            "z": 34.70871845277723
+        }
+    ],
+    "spinSpeed": 1.625,
+    "addLights": true,
+    "addEnvMap": true,
+    "shadows": true,
+    "isCustomTextureAvailable": true,
+    "lightDirection": {
+        "x": 50,
+        "y": 45.58927340153583,
+        "z": 20.533342414717044
+    },
+    "ambientLightIntensity": 3,
+    "ambientLightColor": "#ffffff",
+    "dirLightIntensity": 4,
+    "dirLightColor": "#ffffff",
+    "lightRotate": 0,
+    "lightPitch": -5.86,
+    "envMapRoll": 1.4183109273161312,
+    "isImageBg": false,
+    "isTwoShaderBg": true,
+    "isSingleColorBg": false,
+    "isSingleTextureBg": false,
+    "buyUrl": "https:\/\/www.motorolasolutions.com\/en_xp\/products\/police-cameras\/si500.html#tabproductinfo",
+    "YouTubeURL": "https:\/\/www.youtube.com\/watch?v=SljHY_dNb-Q",
+    "companyUrl": "http:\/\/www.beebox3d.com\/",
+    "companyManualUrl": "",
+    "price": 1100,
+    "envMapImageId": 4,
+    "envMapIntensity": 2,
+    "bgColor": "#ffffff",
+    "bgTexture": "textures\/cmpylog.png",
+    "bottomColor": "#c5e6e8",
+    "topColor": "#e9fcff",
+    "isInteractive": false,
+    "VrTranslate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "VrScaling": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+    },
+    "customMapPath": [
+        {
+            "displayName": "Red"
+        },
+        {
+            "displayName": "black",
+            "textId": "a4body",
+            "map": "models\/car\/textures\/customtextures\/black.png"
+        },
+        {
+            "displayName": "white",
+            "textId": "a4body",
+            "map": "models\/car\/textures\/customtextures\/white.png"
+        }
+    ],
+    "audioPath": [],
+    "isAnnotationAvailable": false,
+    "isAnnotation3D": false,
+    "annotations": [],
+    "availableMaterials": [
+        {
+            "matID": "a4glass1",
+            "opacity": 0.5,
+            "roughness": 0,
+            "transparent": true
+        },
+        {
+            "matID": "a4body",
+            "opacity": 1,
+            "roughness": 0,
+            "transparent": false
+        },
+        {
+            "matID": "a4parts",
+            "opacity": 1,
+            "roughness": 5,
+            "transparent": false
+        },
+        {
+            "matID": "a4interior1",
+            "opacity": 1,
+            "roughness": 0.7,
+            "transparent": false
+        },
+        {
+            "matID": "a4noplate",
+            "opacity": 1,
+            "roughness": 1,
+            "transparent": false
+        },
+        {
+            "matID": "a4wheel",
+            "opacity": 1,
+            "roughness": 1,
+            "transparent": false
+        },
+        {
+            "matID": "phong3",
+            "opacity": 0,
+            "roughness": 0,
+            "transparent": true
+        },
+        {
+            "matID": "light1",
+            "opacity": 1,
+            "roughness": 0.8942628737,
+            "transparent": false
+        }
+    ],
+    "isInteractive3D": false,
+    "interactionObjects": [
+        {
+            "id": 0,
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "tapCount": 0,
+            "tapDetails": [
+                {
+                    "AnimationID": -1,
+                    "AudioID": -1,
+                    "CustomTextueID": -1
+                }
+            ]
+        }
+    ],
+    "isGamificationAvailable": false,
+    "availableFunctions": [
+        {
+            "index": " "
+        }
+    ]
+}
